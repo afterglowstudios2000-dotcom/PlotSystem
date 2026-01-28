@@ -6,3 +6,7 @@
 /*.rbxl.lock
 
 sourcemap.json
+
+*.toml
+*.json
+*.rbxl
