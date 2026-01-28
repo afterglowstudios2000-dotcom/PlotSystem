@@ -58,16 +58,15 @@ A simple Roblox plot management system that assigns a unique plot to each player
 ---
 
 ## Example Folder Structure
-ServerStorage
-└─ Plots
-├─ Plot1
-│ ├─ Baseplate (Part)
-│ └─ OwnerValue (IntValue)
-├─ Plot2
-└─ Plot3
+**ServerStorage**
+- Plots
+    - Plot1
+        - OwnerValue (IntValue)
+    - Plot2
+        - OwnerValue (IntValue)
 
-ServerScriptService
-└─ Server
-└─ Services
-├─ PlotService.lua
-└─ PlayerService.lua
+**ServerScriptService**
+- Server
+    - Services
+        - PlotService.lua
+        - PlayerService.lua
